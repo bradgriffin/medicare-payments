@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  npi: MyString
+  provider_last_org_name: MyString
+  provider_first_name: MyString
+  provider_mi: MyString
+  provider_credentials: MyString
+  provider_gender: MyString
+  entity_code: MyString
+  provider_street1: MyString
+  provider_street2: MyString
+  provider_city: MyString
+  provider_zip: MyString
+  provider_state: MyString
+  provider_country: MyString
+  provider_type: MyString
+  medicare_participation_indicator: MyString
+  place_of_service: MyString
+  hcpcs_code: MyString
+  hcpcs_description: MyString
+  hcpcs_drug_indicator: MyString
+  line_srvc_cnt: 1
+  bene_unique_cnt: 1
+  bene_day_srvc_cnt: 1
+  average_medicare_allowed_amt: 1
+  stdev_medicare_allowed_amt: 1
+  average_submitted_chrg_amt: 1
+  stdev_submitted_chrg_amt: 1
+  average_medicare_payment_amt: 1
+  stdev_medicare_payment_amt: 1
+
+two:
+  npi: MyString
+  provider_last_org_name: MyString
+  provider_first_name: MyString
+  provider_mi: MyString
+  provider_credentials: MyString
+  provider_gender: MyString
+  entity_code: MyString
+  provider_street1: MyString
+  provider_street2: MyString
+  provider_city: MyString
+  provider_zip: MyString
+  provider_state: MyString
+  provider_country: MyString
+  provider_type: MyString
+  medicare_participation_indicator: MyString
+  place_of_service: MyString
+  hcpcs_code: MyString
+  hcpcs_description: MyString
+  hcpcs_drug_indicator: MyString
+  line_srvc_cnt: 1
+  bene_unique_cnt: 1
+  bene_day_srvc_cnt: 1
+  average_medicare_allowed_amt: 1
+  stdev_medicare_allowed_amt: 1
+  average_submitted_chrg_amt: 1
+  stdev_submitted_chrg_amt: 1
+  average_medicare_payment_amt: 1
+  stdev_medicare_payment_amt: 1

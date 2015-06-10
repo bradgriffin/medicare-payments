@@ -1,0 +1,17 @@
+<li class="nav-header">
+  By Gender
+</li>
+<% for row in @search.facet(:provider_gender).rows %>
+  <li>
+    <% if params[:provider_gender].blank? %>
+    <h6>
+      <%= link_to row.value, medicare_payments_path(:search => params[:search], :provider_state => params[:provider_state], :provider_type => params[:provider_type], :provider_gender => row.value) %>
+      <span class="pull-right"><%= number_with_precision(row.count, :precision => 0, :delimiter => ",") %></span>
+    </h6>
+    <% else %>
+      <h6>
+      <strong><%= row.value %></strong> (<%= link_to "remove", medicare_payments_path(:search => params[:search], :provider_state => params[:provider_state], :provider_type => params[:provider_type], :provider_credentials => params[:provider_credentials], :provider_gender => nil) %>)
+      </h6>
+    <% end %>
+  </li>
+<% end %>
